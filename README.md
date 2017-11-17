@@ -8,3 +8,7 @@
 
 [2、autograd机制](./2、autograd机制.ipynb)
 
+
+[3、线性回归](./3、线性回归.ipynb)
+
+[4、]
