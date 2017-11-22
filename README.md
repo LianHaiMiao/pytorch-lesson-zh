@@ -18,7 +18,7 @@ pytorch-tutorial-zh
 [4、多层感知机](./4、多层感知机.ipynb)
 
 
-[5、DataLoader](./5、DataLoader.ipynb)
+[5、Dataset和DataLoader](./5、Dataset和DataLoader.ipynb)
 
 
 [6、CNN和MNIST]
@@ -48,3 +48,19 @@ pytorch-tutorial-zh
 
 ### 2、自然语言处理部分
 
+
+
+
+
+
+## Reference
+
+[PyTorch官方docs 0.2.0版本](http://pytorch.org/docs/0.2.0/)
+
+[PyTorch官方tutorial](http://pytorch.org/tutorials/)
+
+[PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)
+
+[MorvanZhou/PyTorch-Tutorial](https://github.com/MorvanZhou/PyTorch-Tutorial)
+
+[yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
