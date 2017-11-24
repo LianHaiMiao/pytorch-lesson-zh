@@ -21,12 +21,12 @@ pytorch-tutorial-zh
 [5、Dataset和DataLoader](./5、Dataset和DataLoader.ipynb)
 
 
-[6、CNN和MNIST]
+[6、CNN和MNIST](./CNN和MNIST.ipynb)
 
 
 ## 二、小试牛刀
 
-### 1、（CNN部分）
+### 1、计算机视觉部分
 
 
 [7、AlexNet]
@@ -64,3 +64,5 @@ pytorch-tutorial-zh
 [MorvanZhou/PyTorch-Tutorial](https://github.com/MorvanZhou/PyTorch-Tutorial)
 
 [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
+
+[李沐—gluon教程](https://zh.gluon.ai/index.html)
