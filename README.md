@@ -29,7 +29,7 @@ pytorch-tutorial-zh
 ### 1、计算机视觉部分
 
 
-[7、AlexNet]
+[7、AlexNet](./AlexNet.ipynb)
 
 
 [8、VGG](./VGG.ipynb)
@@ -49,7 +49,10 @@ pytorch-tutorial-zh
 ### 2、自然语言处理部分
 
 
+## Dependencies
 
+Python 2.7 or 3.5
+PyTorch 0.2.0
 
 
 
