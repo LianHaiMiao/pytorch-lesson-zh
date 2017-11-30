@@ -2,26 +2,28 @@
 
 pytorch-tutorial-zh
 
-雏鹰起飞部分是为了能够快速上手PyTorch， 小试牛刀部分则是用来练手的模型
+雏鹰起飞部分是为了能够快速上手PyTorch
+
+小试牛刀部分则是用来练手的模型
 
 ## 一、雏鹰起飞
 
-[1、Tensor基础](./1、Tensor基础.ipynb)
+[Tensor基础](./1、Tensor基础.ipynb)
 
 
-[2、autograd机制](./2、autograd机制.ipynb)
+[autograd机制](./2、autograd机制.ipynb)
 
 
-[3、线性回归](./3、线性回归.ipynb)
+[线性回归](./3、线性回归.ipynb)
 
 
-[4、多层感知机](./4、多层感知机.ipynb)
+[多层感知机](./4、多层感知机.ipynb)
 
 
-[5、Dataset和DataLoader](./5、Dataset和DataLoader.ipynb)
+[Dataset和DataLoader](./5、Dataset和DataLoader.ipynb)
 
 
-[6、CNN和MNIST](./CNN和MNIST.ipynb)
+[CNN和MNIST](./CNN和MNIST.ipynb)
 
 
 ## 二、小试牛刀
@@ -29,24 +31,31 @@ pytorch-tutorial-zh
 ### 1、计算机视觉部分
 
 
-[7、AlexNet](./AlexNet.ipynb)
+[AlexNet](./AlexNet.ipynb)
 
 
-[8、VGG](./VGG.ipynb)
+[VGG](./VGG.ipynb)
 
 
-[9、NIN]
+[NIN]
 
 
-[10、GoogleNet]
+[GoogleNet]
 
 
-[11、ResNet]
+[ResNet]
 
 
-[12、DenseNet]
+[DenseNet]
 
 ### 2、自然语言处理部分
+
+
+
+### 3、GAN
+
+[GAN](./GAN.ipynb)
+
 
 
 ## Dependencies
