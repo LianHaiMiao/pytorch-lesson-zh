@@ -25,6 +25,7 @@ pytorch-tutorial-zh
 
 [CNN和MNIST](./CNN和MNIST.ipynb)
 
+[参数初始化和使用预训练模型](./参数初始化和使用预训练模型.ipynb)
 
 ## 二、小试牛刀
 
