@@ -57,7 +57,7 @@ pytorch-tutorial-zh
 
 [GAN](./GAN.ipynb)
 
-
+[DCGAN](./DCGAN.ipynb)
 
 ## Dependencies
 
