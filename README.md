@@ -8,34 +8,34 @@ pytorch-tutorial-zh
 
 ## 一、雏鹰起飞
 
-[Tensor基础](./1、Tensor基础.ipynb)
+[Tensor基础](./basis/1、Tensor基础.ipynb)
 
 
-[autograd机制](./2、autograd机制.ipynb)
+[autograd机制](./basis/2、autograd机制.ipynb)
 
 
-[线性回归](./3、线性回归.ipynb)
+[线性回归](./basis/3、线性回归.ipynb)
 
 
-[多层感知机](./4、多层感知机.ipynb)
+[多层感知机](./basis/4、多层感知机.ipynb)
 
 
-[Dataset和DataLoader](./5、Dataset和DataLoader.ipynb)
+[Dataset和DataLoader](./basis/5、Dataset和DataLoader.ipynb)
 
 
-[CNN和MNIST](./CNN和MNIST.ipynb)
+[CNN和MNIST](./basis/CNN和MNIST.ipynb)
 
-[参数初始化和使用预训练模型](./参数初始化和使用预训练模型.ipynb)
+[参数初始化和使用预训练模型](./basis/参数初始化和使用预训练模型.ipynb)
 
 ## 二、小试牛刀
 
 ### 1、计算机视觉部分
 
 
-[AlexNet](./AlexNet.ipynb)
+[AlexNet](./CV/AlexNet.ipynb)
 
 
-[VGG](./VGG.ipynb)
+[VGG](./CV/VGG.ipynb)
 
 
 [NIN]
@@ -55,9 +55,9 @@ pytorch-tutorial-zh
 
 ### 3、GAN
 
-[GAN](./GAN.ipynb)
+[GAN](./GAN/GAN.ipynb)
 
-[DCGAN](./DCGAN.ipynb)
+[DCGAN](./GAN/DCGAN.ipynb)
 
 ## Dependencies
 
