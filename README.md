@@ -44,7 +44,7 @@ pytorch-tutorial-zh
 [GoogleNet]
 
 
-[ResNet]
+[ResNet](./CV/ResNet.ipynb)
 
 
 [DenseNet]
