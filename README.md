@@ -29,7 +29,7 @@ pytorch-tutorial-zh
 
 ## 二、小试牛刀
 
-### 1、计算机视觉部分
+### 1、计算机视觉——分类算法
 
 
 [AlexNet](./CV/AlexNet.ipynb)
@@ -49,15 +49,21 @@ pytorch-tutorial-zh
 
 [DenseNet]
 
-### 2、自然语言处理部分
+### 2、计算机视觉——物体检测算法
+
+[YOLO]
+
+### 3、自然语言处理部分
 
 
-
-### 3、GAN
+### 4、GAN
 
 [GAN](./GAN/GAN.ipynb)
 
 [DCGAN](./GAN/DCGAN.ipynb)
+
+
+
 
 ## Dependencies
 
