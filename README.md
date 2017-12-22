@@ -53,7 +53,8 @@ pytorch-tutorial-zh
 
 [YOLO]
 
-### 3、自然语言处理部分
+### 3、自然语言处理
+
 
 
 ### 4、GAN
@@ -62,7 +63,9 @@ pytorch-tutorial-zh
 
 [DCGAN](./GAN/DCGAN.ipynb)
 
+### 5、样式迁移
 
+[Neural Style]
 
 
 ## Dependencies
