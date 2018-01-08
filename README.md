@@ -65,7 +65,7 @@ pytorch-tutorial-zh
 
 ### 5、样式迁移
 
-[Neural Style]
+[Neural Style](./Nueral_Style/neural_style.ipynb)
 
 
 ## Dependencies
