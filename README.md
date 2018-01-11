@@ -55,7 +55,7 @@ pytorch-tutorial-zh
 
 ### 3、自然语言处理
 
-
+[Seq2Seq]
 
 ### 4、GAN
 
