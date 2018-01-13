@@ -55,6 +55,8 @@ pytorch-tutorial-zh
 
 ### 3、自然语言处理
 
+[Word2Vec](./NLP/Word2Vec.ipynb)
+
 [Seq2Seq]
 
 ### 4、GAN
