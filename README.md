@@ -83,6 +83,8 @@ PyTorch 0.2.0
 
 [PyTorch官方tutorial](http://pytorch.org/tutorials/)
 
+[DeepNLP-models-Pytorch](https://github.com/DSKSD/DeepNLP-models-Pytorch)
+
 [PyTorchZeroToAll](https://github.com/hunkim/PyTorchZeroToAll)
 
 [MorvanZhou/PyTorch-Tutorial](https://github.com/MorvanZhou/PyTorch-Tutorial)
