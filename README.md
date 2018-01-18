@@ -57,6 +57,8 @@ pytorch-tutorial-zh
 
 [Word2Vec](./NLP/Word2Vec.ipynb)
 
+[char_RNN(自动生成古诗)](./NLP/char_RNN(自动生成古诗).ipynb)
+
 [Seq2Seq]
 
 ### 4、GAN
