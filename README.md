@@ -25,7 +25,9 @@ pytorch-tutorial-zh
 
 [CNN和MNIST](./basis/CNN和MNIST.ipynb)
 
+
 [参数初始化和使用预训练模型](./basis/参数初始化和使用预训练模型.ipynb)
+
 
 ## 二、小试牛刀
 
@@ -57,7 +59,9 @@ pytorch-tutorial-zh
 
 [Word2Vec](./NLP/Word2Vec.ipynb)
 
-[char_RNN(自动生成古诗)](./NLP/char_RNN(自动生成古诗).ipynb)
+[char_RNN(自动生成古诗)](./NLP/char_RNN.ipynb)
+
+[使用LSTM来生成周杰伦歌词](./NLP/LSTM.ipynb)
 
 [Seq2Seq]
 
