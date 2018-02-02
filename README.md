@@ -11,27 +11,17 @@ pytorch-tutorial-zh
 
 ## 一、雏鹰起飞
 
-[1.Tensor基础.ipynb](./basis/1、Tensor基础.ipynb)   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [1.Tensor基础.py](./basis/py/tensor_basis.py)
 
-[2.autograd机制.ipynb](./basis/2、autograd机制.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [2.autograd机制.py](./basis/py/autograd.py)
-
-
-[3.线性回归.ipynb](./basis/3、线性回归.ipynb)  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;        [3.线性回归.py](./basis/py/linear_regression.py)
-
-
-
-[4.多层感知机.ipynb](./basis/4、多层感知机.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [4.多层感知机.py](./basis/py/mlp.py)
-
-
-[5.Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [5.Dataset和DataLoader.py](./basis/py/dataset.py)
-
-
-
-[6.CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      [6.CNN和MNIST.py](./basis/py/simplecnn.py)
-
-
-
-[7.参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [7.参数初始化和使用预训练模型.py](./basis/py/pretrain.py)
+| Content    | .ipynb 文件  |  .py 文件 |
+| ------------------ | :---------------------: | :--------------------------: |
+| 1.Tensor基础 |  [Tensor基础.ipynb](./basis/1、Tensor基础.ipynb) | [Tensor基础.py](./basis/py/tensor_basis.py) |
+| 2.autograd机制 | [autograd机制.ipynb](./basis/2、autograd机制.ipynb) | [autograd机制.py](./basis/py/autograd.py) |
+| 3.线性回归 | [线性回归.ipynb](./basis/3、线性回归.ipynb) | [线性回归.py](./basis/py/linear_regression.py) |
+| 4.多层感知机 | [多层感知机.ipynb](./basis/4、多层感知机.ipynb) | [多层感知机.py](./basis/py/mlp.py) |
+| 5.Dataset和DataLoader | [Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb) | [Dataset和DataLoader.py](./basis/py/dataset.py) | 
+| 6.CNN和MNIST | [CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb) | [CNN和MNIST.py](./basis/py/simplecnn.py) |
+| 7.参数初始化和使用预训练模型 | [参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb) | [参数初始化和使用预训练模型.py](./basis/py/pretrain.py) |
+   
 
 
 ## 二、小试牛刀
