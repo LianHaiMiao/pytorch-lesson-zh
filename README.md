@@ -6,32 +6,32 @@ pytorch-tutorial-zh
 
 小试牛刀部分则是用来练手的模型
 
-为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码部分和 notebook 中基本一样，只是少了一些图示说明罢了。
+为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码和 notebook 中基本一样，只是少了一些图示说明罢了。
 
 
 ## 一、雏鹰起飞
 
-[1.Tensor基础](./basis/1、Tensor基础.ipynb)   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [1.Tensor基础.py](./basis/py/tensor_basis.py)
+[1.Tensor基础.ipynb](./basis/1、Tensor基础.ipynb)   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [1.Tensor基础.py](./basis/py/tensor_basis.py)
 
-[2.autograd机制](./basis/2、autograd机制.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [2.autograd机制.py](./basis/py/autograd.py)
-
-
-[3.线性回归](./basis/3、线性回归.ipynb)  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;        [3.线性回归](./basis/py/linear_regression.py)
+[2.autograd机制.ipynb](./basis/2、autograd机制.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [2.autograd机制.py](./basis/py/autograd.py)
 
 
-
-[4.多层感知机](./basis/4、多层感知机.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [4.多层感知机](./basis/py/mlp.py)
-
-
-[5.Dataset和DataLoader](./basis/5、Dataset和DataLoader.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [5.Dataset和DataLoader](./basis/py/dataset.py)
+[3.线性回归.ipynb](./basis/3、线性回归.ipynb)  &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;        [3.线性回归.py](./basis/py/linear_regression.py)
 
 
 
-[6.CNN和MNIST](./basis/CNN和MNIST.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      [6.CNN和MNIST](./basis/py/simplecnn.py)
+[4.多层感知机.ipynb](./basis/4、多层感知机.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;       [4.多层感知机.py](./basis/py/mlp.py)
+
+
+[5.Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [5.Dataset和DataLoader.py](./basis/py/dataset.py)
 
 
 
-[7.参数初始化和使用预训练模型](./basis/参数初始化和使用预训练模型.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [7.参数初始化和使用预训练模型](./basis/py/pretrain.py)
+[6.CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      [6.CNN和MNIST.py](./basis/py/simplecnn.py)
+
+
+
+[7.参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;        [7.参数初始化和使用预训练模型.py](./basis/py/pretrain.py)
 
 
 ## 二、小试牛刀
@@ -39,46 +39,46 @@ pytorch-tutorial-zh
 ### 1、计算机视觉——分类算法
 
 
-[AlexNet](./CV/AlexNet.ipynb)
+[AlexNet.ipynb](./CV/AlexNet.ipynb)
 
 
-[VGG](./CV/VGG.ipynb)
+[VGG.ipynb](./CV/VGG.ipynb)
 
 
-[NIN](./CV/NIN.ipynb)
+[NIN.ipynb](./CV/NIN.ipynb)
 
 
-[GoogleNet]
+[GoogleNet.ipynb]
 
 
-[ResNet](./CV/ResNet.ipynb)
+[ResNet.ipynb](./CV/ResNet.ipynb)
 
 
-[DenseNet]
+[DenseNet.ipynb]
 
 ### 2、计算机视觉——物体检测算法
 
-[YOLO]
+[YOLO.ipynb]
 
 ### 3、自然语言处理
 
-[Word2Vec](./NLP/Word2Vec.ipynb)
+[Word2Vec.ipynb](./NLP/Word2Vec.ipynb)
 
-[char_RNN(自动生成古诗)](./NLP/char_RNN.ipynb)
+[char_RNN(自动生成古诗).ipynb](./NLP/char_RNN.ipynb)
 
-[使用LSTM来生成周杰伦歌词](./NLP/LSTM.ipynb)
+[使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb)
 
-[Seq2Seq]
+[Seq2Seq.ipynb]
 
 ### 4、GAN
 
-[GAN](./GAN/GAN.ipynb)
+[GAN.ipynb](./GAN/GAN.ipynb)
 
-[DCGAN](./GAN/DCGAN.ipynb)
+[DCGAN.ipynb](./GAN/DCGAN.ipynb)
 
 ### 5、样式迁移
 
-[Neural Style](./Nueral_Style/neural_style.ipynb)
+[Neural Style.ipynb](./Nueral_Style/neural_style.ipynb)
 
 
 ## Dependencies
