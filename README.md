@@ -6,30 +6,32 @@ pytorch-tutorial-zh
 
 小试牛刀部分则是用来练手的模型
 
-为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码部分和 notebook 中，一样，只是少了一些图示说明罢了。
+为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码部分和 notebook 中基本一样，只是少了一些图示说明罢了。
 
 
 ## 一、雏鹰起飞
 
-[Tensor基础](./basis/1、Tensor基础.ipynb)
+[1.Tensor基础](./basis/1、Tensor基础.ipynb)        [1.Tensor基础.py](./basis/py/tensor_basis.py)
+
+[2.autograd机制](./basis/2、autograd机制.ipynb)        [2.autograd机制.py](./basis/py/autograd.py)
 
 
-[autograd机制](./basis/2、autograd机制.ipynb)
+[3.线性回归](./basis/3、线性回归.ipynb)        [3.线性回归](./basis/py/linear_regression.py)
 
 
-[线性回归](./basis/3、线性回归.ipynb)
+
+[4.多层感知机](./basis/4、多层感知机.ipynb)        [4.多层感知机](./basis/py/mlp.py)
 
 
-[多层感知机](./basis/4、多层感知机.ipynb)
+[5.Dataset和DataLoader](./basis/5、Dataset和DataLoader.ipynb)        [5.Dataset和DataLoader](./basis/py/dataset.py)
 
 
-[Dataset和DataLoader](./basis/5、Dataset和DataLoader.ipynb)
+
+[6.CNN和MNIST](./basis/CNN和MNIST.ipynb)        [6.CNN和MNIST](./basis/py/simplecnn.py)
 
 
-[CNN和MNIST](./basis/CNN和MNIST.ipynb)
 
-
-[参数初始化和使用预训练模型](./basis/参数初始化和使用预训练模型.ipynb)
+[7.参数初始化和使用预训练模型](./basis/参数初始化和使用预训练模型.ipynb)        [7.参数初始化和使用预训练模型](./basis/py/pretrain.py)
 
 
 ## 二、小试牛刀
