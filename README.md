@@ -6,6 +6,9 @@ pytorch-tutorial-zh
 
 小试牛刀部分则是用来练手的模型
 
+为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码部分和 notebook 中，一样，只是少了一些图示说明罢了。
+
+
 ## 一、雏鹰起飞
 
 [Tensor基础](./basis/1、Tensor基础.ipynb)
@@ -40,7 +43,7 @@ pytorch-tutorial-zh
 [VGG](./CV/VGG.ipynb)
 
 
-[NIN]
+[NIN](./CV/NIN.ipynb)
 
 
 [GoogleNet]
