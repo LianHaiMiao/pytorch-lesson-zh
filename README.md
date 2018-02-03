@@ -65,6 +65,7 @@ pytorch-tutorial-zh
 ### 5、样式迁移
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
 | Nueral_Style |  [Neural Style.ipynb](./neural_style/neural_style.ipynb) | [Nueral Style](./CV/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
 
 
