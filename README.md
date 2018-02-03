@@ -31,12 +31,12 @@ pytorch-tutorial-zh
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| AlexNet |  [AlexNet.ipynb](./CV/AlexNet.ipynb) | [AlexNet] |  [AlexNet paper](https://tinyurl.com/j4pu2rc) |
-| VGG |  [VGG.ipynb](./CV/VGG.ipynb) |  [VGG] |  [VGG paper](https://arxiv.org/abs/1409.1556) |
-| Network In Network |  [NIN.ipynb](./CV/NIN.ipynb) | [Network In Network] |  [Network In Network paper](https://arxiv.org/abs/1312.4400) |
-| GoogleNet |  [GoogleNet.ipynb] | [GoogleNet] |  [GoogleNet paper] |
-| ResNet | [ResNet.ipynb](./CV/ResNet.ipynb) | [ResNet] |  [ResNet paper] |
-| DenseNet |  [DenseNet.ipynb] | [DenseNet] |  [DenseNet paper] |
+| AlexNet |  [AlexNet.ipynb](./CV/AlexNet.ipynb) | [AlexNet.py](./CV/py/AlexNet.py) |  [AlexNet paper](https://tinyurl.com/j4pu2rc) |
+| VGG |  [VGG.ipynb](./CV/VGG.ipynb) |  [VGG.py](./CV/py/VGG.py) |  [VGG paper](https://arxiv.org/abs/1409.1556) |
+| Network In Network |  [NIN.ipynb](./CV/NIN.ipynb) | [NIN.py](./CV/py/NIN.py) |  [Network In Network paper](https://arxiv.org/abs/1312.4400) |
+| GoogleNet |  [GoogleNet.ipynb] | [GoogleNet] |  [GoogleNet V1 paper](https://arxiv.org/abs/1409.4842) |
+| ResNet | [ResNet.ipynb](./CV/ResNet.ipynb) | [ResNet.py](./CV/py/ResNet.py) |  [ResNet paper](https://arxiv.org/abs/1512.03385) |
+| DenseNet |  [DenseNet.ipynb] | [DenseNet] |  [DenseNet paper](https://arxiv.org/abs/1608.06993) |
 
 
 
@@ -48,7 +48,7 @@ pytorch-tutorial-zh
 
 [Word2Vec.ipynb](./NLP/Word2Vec.ipynb)
 
-[char_RNN(自动生成古诗).ipynb](./NLP/char_RNN.ipynb)
+[char_RNN(自动生成古诗).ipynb (未成品...)](./NLP/char_RNN.ipynb)
 
 [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb)
 
@@ -56,20 +56,29 @@ pytorch-tutorial-zh
 
 ### 4、GAN
 
-[GAN.ipynb](./GAN/GAN.ipynb)
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+| GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
+| DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
 
-[DCGAN.ipynb](./GAN/DCGAN.ipynb)
 
 ### 5、样式迁移
 
-[Neural Style.ipynb](./Nueral_Style/neural_style.ipynb)
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| Nueral_Style |  [Neural Style.ipynb](./neural_style/neural_style.ipynb)
+ | [Nueral Style](./CV/py/neural_style.py) |  [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
+
+
+
 
 
 ## Dependencies
 
-Python 2.7 or 3.5
+Python 3.5
+
 PyTorch 0.2.0
 
+最好有 GPU
 
 
 ## Reference
