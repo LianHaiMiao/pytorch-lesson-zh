@@ -66,7 +66,7 @@ pytorch-tutorial-zh
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Nueral_Style |  [Neural Style.ipynb](./neural_style/neural_style.ipynb) | [Nueral Style](./CV/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
+| Nueral_Style |  [Neural Style.ipynb](./Nueral_Style/neural_style.ipynb) | [Nueral Style](./Nueral_Style/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
 
 
 
