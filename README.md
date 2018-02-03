@@ -4,7 +4,7 @@ pytorch-tutorial-zh
 
 雏鹰起飞部分是为了能够快速上手PyTorch
 
-小试牛刀部分则是用来练手的模型
+小试牛刀部分则是用来练手的模型，大部分都是对论文工作的复现，或者是一些有意思的例子。
 
 为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码和 notebook 中基本一样，只是少了一些图示说明罢了。
 
@@ -26,25 +26,19 @@ pytorch-tutorial-zh
 
 ## 二、小试牛刀
 
-### 1、计算机视觉——分类算法
+### 1、计算机视觉——分类算法（卷积神经网络专区）
 
 
-[AlexNet.ipynb](./CV/AlexNet.ipynb)
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+| AlexNet |  [AlexNet.ipynb](./CV/AlexNet.ipynb) | [AlexNet] |  [AlexNet paper](https://tinyurl.com/j4pu2rc) |
+| VGG |  [VGG.ipynb](./CV/VGG.ipynb) |  [VGG] |  [VGG paper](https://arxiv.org/abs/1409.1556) |
+| Network In Network |  [NIN.ipynb](./CV/NIN.ipynb) | [Network In Network] |  [Network In Network paper](https://arxiv.org/abs/1312.4400) |
+| GoogleNet |  [GoogleNet.ipynb] | [GoogleNet] |  [GoogleNet paper] |
+| ResNet | [ResNet.ipynb](./CV/ResNet.ipynb) | [ResNet] |  [ResNet paper] |
+| DenseNet |  [DenseNet.ipynb] | [DenseNet] |  [DenseNet paper] |
 
 
-[VGG.ipynb](./CV/VGG.ipynb)
-
-
-[NIN.ipynb](./CV/NIN.ipynb)
-
-
-[GoogleNet.ipynb]
-
-
-[ResNet.ipynb](./CV/ResNet.ipynb)
-
-
-[DenseNet.ipynb]
 
 ### 2、计算机视觉——物体检测算法
 
