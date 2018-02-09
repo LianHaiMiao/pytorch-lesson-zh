@@ -96,5 +96,31 @@ print(x_u_1)
 x_u_2 = torch.unsqueeze(x_u, 1)
 print(x_u_2)
 
+# squeeze() 可以让我们把一个矩阵变成向量。
+
+x_sq = torch.Tensor([[1, 2, 3, 4]])
+print(x_sq)
+x_sq_1 = torch.squeeze(x_u, 0)
+print(x_sq_1)
+
+# stack() 可以让我们把很多个矩阵"堆"在一起形成一个新的高维矩阵。
+# 比如，我们有 10 个 (5, 12)的 Tensor， 我们希望把他们堆在一起形成 (10, 5, 12)的Tensor，我们就可以使用 stack
+
+x_sta = []
+
+num = 10
+
+for i in range(num):
+    temp = torch.randn((5, 12))
+    x_sta.append(temp)
+    if i == 5:
+        print("每个 tensor 的维度为：", temp.size())
+        
+print("整个 sequence 的长度为", len(x_sta))
+
+x_sta_1 = torch.stack(x_sta)
+
+print("stack 整个 sequence 之后得到的结果为：", x_sta_1.size())
+
 
 # 最后，这里只是一个引子，还有很多很多的操作，可以在pyTorch官方文档上查阅 torch.Tensor API

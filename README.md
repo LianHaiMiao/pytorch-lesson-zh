@@ -18,10 +18,10 @@ pytorch-tutorial-zh
 | 2.autograd机制 | [autograd机制.ipynb](./basis/2、autograd机制.ipynb) | [autograd机制.py](./basis/py/autograd.py) |
 | 3.线性回归 | [线性回归.ipynb](./basis/3、线性回归.ipynb) | [线性回归.py](./basis/py/linear_regression.py) |
 | 4.多层感知机 | [多层感知机.ipynb](./basis/4、多层感知机.ipynb) | [多层感知机.py](./basis/py/mlp.py) |
-| 5.Dataset和DataLoader | [Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb) | [Dataset和DataLoader.py](./basis/py/dataset.py) | 
+| 5.Dataset和DataLoader | [Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb) | [Dataset和DataLoader.py](./basis/py/dataset.py) |
 | 6.CNN和MNIST | [CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb) | [CNN和MNIST.py](./basis/py/simplecnn.py) |
 | 7.参数初始化和使用预训练模型 | [参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb) | [参数初始化和使用预训练模型.py](./basis/py/pretrain.py) |
-   
+| 8.循环神经网络（RNN） | [循环神经网络（RNN）.ipynb](./basis/rnn.ipynb) | [循环神经网络（RNN）.py](./basis/py/rnn.py) |
 
 
 ## 二、小试牛刀
