@@ -122,5 +122,4 @@ x_sta_1 = torch.stack(x_sta)
 
 print("stack 整个 sequence 之后得到的结果为：", x_sta_1.size())
 
-
 # 最后，这里只是一个引子，还有很多很多的操作，可以在pyTorch官方文档上查阅 torch.Tensor API

@@ -48,8 +48,6 @@ pytorch-tutorial-zh
 
 [Word2Vec.ipynb](./NLP/Word2Vec.ipynb)
 
-[char_RNN(自动生成古诗).ipynb (未成品...)](./NLP/char_RNN.ipynb)
-
 [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb)
 
 [Seq2Seq.ipynb]
