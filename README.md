@@ -95,3 +95,5 @@ PyTorch 0.2.0
 [yunjey/pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)
 
 [李沐—gluon教程](https://zh.gluon.ai/index.html)
+
+[吴恩达——Deep Learning教程](https://www.coursera.org/specializations/deep-learning)
