@@ -2,7 +2,9 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import torch.nn.functional as F
-
+import torchvision
+import torchvision.transforms as transforms
+from torch.utils.data import DataLoader
 
 class AlextNet(nn.Module):
     def __init__(self, in_channel, n_class):
