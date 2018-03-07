@@ -104,7 +104,7 @@ def clip_and_update(parameters, lr, maxValue):
 
 def sample(model, char_to_ix, ix_to_char, vocab_size):
     # 初始值
-    random_int = random.randint(0, vocab_size)
+    random_int = random.randint(0, vocab_size-1)
     i_d = one_hot([random_int], vocab_size)
     a_input = Variable(i_d).view(1, 1, vocab_size)
     indices = []
