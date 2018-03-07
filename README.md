@@ -46,11 +46,18 @@ pytorch-tutorial-zh
 
 ### 3、自然语言处理
 
-[Word2Vec.ipynb](./NLP/Word2Vec.ipynb)
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+| Word2Vec |  [Word2Vec.ipynb](./NLP/Word2Vec.ipynb) | [Word2Vec.py](./NLP/py/Word2Vec.py)  |  [Word2Vec Toolkit](https://code.google.com/archive/p/word2vec/) |
+| LSTM |  [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb) | [使用LSTM来生成周杰伦歌词.py](./NLP/py/lstm.py) |  [paper] |
 
-[使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb)
+[encoder-decoder.ipynb]
 
-[Seq2Seq.ipynb]
+[注意力机制.ipynb]
+
+[神经机器翻译.ipynb]
+
+[聊天机器人.ipynb]
 
 ### 4、GAN
 
