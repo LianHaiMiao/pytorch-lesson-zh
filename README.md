@@ -48,14 +48,11 @@ pytorch-tutorial-zh
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Word2Vec |  [Word2Vec.ipynb](./NLP/Word2Vec.ipynb) | [Word2Vec.py](./NLP/py/Word2Vec.py)  |  [Word2Vec Toolkit](https://code.google.com/archive/p/word2vec/) |
+| Word2Vec |  [Word2Vec.ipynb](./NLP/Word2Vec.ipynb) | [Word2Vec.py](./NLP/py/word2vec.py)  |  [Word2Vec Toolkit](https://code.google.com/archive/p/word2vec/) |
 | LSTM |  [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb) | [使用LSTM来生成周杰伦歌词.py](./NLP/py/lstm.py) |  [paper] |
-
-[encoder-decoder.ipynb]
+| Encoder-Decoder |  [使用Encoder-Decoder来完成机器翻译.ipynb](./NLP/encode_decoder.ipynb) | [Encoder-Decoder.py](./NLP/py/encoder_decoder.py) |  [paper] |
 
 [注意力机制.ipynb]
-
-[神经机器翻译.ipynb]
 
 [聊天机器人.ipynb]
 
