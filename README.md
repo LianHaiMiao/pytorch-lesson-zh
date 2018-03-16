@@ -51,7 +51,6 @@ pytorch-tutorial-zh
 | Word2Vec |  [Word2Vec.ipynb](./NLP/Word2Vec.ipynb) | [Word2Vec.py](./NLP/py/word2vec.py)  |  [Word2Vec Toolkit](https://code.google.com/archive/p/word2vec/) |
 | LSTM |  [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb) | [使用LSTM来生成周杰伦歌词.py](./NLP/py/lstm.py) |  [paper] |
 | Encoder-Decoder |  [使用Encoder-Decoder来完成机器翻译.ipynb](./NLP/encode_decoder.ipynb) | [Encoder-Decoder.py](./NLP/py/encoder_decoder.py) |  [paper] |
-
 | 注意力机制 |  [使用Encoder-Decoder + Attention 机制来完成机器翻译.ipynb](./NLP/attention.ipynb) | [Encoder-Decoder.py](./NLP/py/attention.py) |  [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) |
 
 [聊天机器人.ipynb]
