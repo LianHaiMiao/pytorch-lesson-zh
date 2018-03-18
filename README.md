@@ -11,7 +11,6 @@ pytorch-tutorial-zh
 
 ## 一、雏鹰起飞
 
-
 | Content    | .ipynb 文件  |  .py 文件 |
 | ------------------ | :---------------------: | :--------------------------: |
 | 1.Tensor基础 |  [Tensor基础.ipynb](./basis/1、Tensor基础.ipynb) | [Tensor基础.py](./basis/py/tensor_basis.py) |
@@ -26,8 +25,8 @@ pytorch-tutorial-zh
 
 ## 二、小试牛刀
 
-### 1、计算机视觉——分类算法（卷积神经网络专区）
 
+### 1、计算机视觉——经典算法（卷积神经网络专区）
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
@@ -39,10 +38,12 @@ pytorch-tutorial-zh
 | DenseNet |  [DenseNet.ipynb] | [DenseNet] |  [DenseNet paper](https://arxiv.org/abs/1608.06993) |
 
 
-
-### 2、计算机视觉——物体检测算法
+### 2、计算机视觉——应用领域
 
 [YOLO.ipynb]
+
+[Image2Language.ipynb]
+
 
 ### 3、自然语言处理
 
@@ -51,16 +52,23 @@ pytorch-tutorial-zh
 | Word2Vec |  [Word2Vec.ipynb](./NLP/Word2Vec.ipynb) | [Word2Vec.py](./NLP/py/word2vec.py)  |  [Word2Vec Toolkit](https://code.google.com/archive/p/word2vec/) |
 | LSTM |  [使用LSTM来生成周杰伦歌词.ipynb](./NLP/LSTM.ipynb) | [使用LSTM来生成周杰伦歌词.py](./NLP/py/lstm.py) |  [paper] |
 | Encoder-Decoder |  [使用Encoder-Decoder来完成机器翻译.ipynb](./NLP/encode_decoder.ipynb) | [Encoder-Decoder.py](./NLP/py/encoder_decoder.py) |  [paper] |
-| 注意力机制 |  [使用Encoder-Decoder + Attention 机制来完成机器翻译.ipynb](./NLP/attention.ipynb) | [Encoder-Decoder.py](./NLP/py/attention.py) |  [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) |
+| 注意力机制 |  [使用Encoder-Decoder + Attention 机制来完成机器翻译.ipynb](./NLP/attention.ipynb) | [Attention.py](./NLP/py/attention.py) |  [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) |
+
+[情感分类.ipynb]
 
 [聊天机器人.ipynb]
 
-### 4、GAN
+
+### 4、生成模型
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
 | GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
 | DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
+
+[Variational Auto-Encoder.ipynb]
+
+[WGAN.ipynb]
 
 
 ### 5、样式迁移
