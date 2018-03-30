@@ -81,14 +81,22 @@ pytorch-tutorial-zh
 
 
 
-
 ## Dependencies
 
 Python 3.5
 
-PyTorch 0.2.0
+PyTorch 0.3.0
 
 最好有 GPU
+
+
+## 如何安装Pytorch?
+
+linux可以通过这个 [Pytorch官网](http://pytorch.org/)
+windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/p/26871672)
+
+
+
 
 
 ## Reference
