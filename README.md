@@ -8,6 +8,11 @@ pytorch-tutorial-zh
 
 为了避免 jupyter notebook 加载过慢，可以直接选择看 .py 文件，代码和 notebook 中基本一样，只是少了一些图示说明罢了。
 
+## 如何安装Pytorch?
+
+linux可以通过这个 [Pytorch官网](http://pytorch.org/)
+windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/p/26871672)
+
 
 ## 一、雏鹰起飞
 
@@ -78,6 +83,11 @@ pytorch-tutorial-zh
 | Nueral_Style |  [Neural Style.ipynb](./Nueral_Style/neural_style.ipynb) | [Nueral Style](./Nueral_Style/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
 
 
+### 6、其它
+
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+| Capsule |  [Capsule.ipynb]() | [Capsule]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
 
 
 
@@ -90,10 +100,6 @@ PyTorch 0.3.0
 最好有 GPU
 
 
-## 如何安装Pytorch?
-
-linux可以通过这个 [Pytorch官网](http://pytorch.org/)
-windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/p/26871672)
 
 
 
