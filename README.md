@@ -68,8 +68,8 @@ windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
-| DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
+| GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN.py](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
+| DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN.py](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
 
 [Variational Auto-Encoder.ipynb]
 
@@ -80,14 +80,14 @@ windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Nueral_Style |  [Neural Style.ipynb](./Nueral_Style/neural_style.ipynb) | [Nueral Style](./Nueral_Style/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
+| Nueral_Style |  [Neural Style.ipynb](./Nueral_Style/neural_style.ipynb) | [Nueral Style.py](./Nueral_Style/py/neural_style.py) | [Nueral_Style paper](https://arxiv.org/abs/1508.06576) |
 
 
 ### 6、其它
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Capsule |  [Capsule.ipynb]() | [Capsule]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
+| Capsule |  [Capsule.ipynb]() | [Capsule.py]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
 
 
 
