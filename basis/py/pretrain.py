@@ -57,83 +57,55 @@ import torch
 from torch.autograd import Variable
 import torch.optim as optim
 
-
 # -----------------get Alexnet model-------------------------
 def getAlexNet(DOWNLOAD=True):
     alexnet = models.alexnet(pretrained=DOWNLOAD)
     return alexnet
 
-# -----------------revise the AlexNet class--------------------------
-class AlexNet(nn.Module):
-    def __init__(self, num_classes=1000):
-        super(AlexNet, self).__init__()
-        self.features = nn.Sequential(
-            nn.Conv2d(3, 64, kernel_size=11, stride=4, padding=2),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-            nn.Conv2d(64, 192, kernel_size=5, padding=2),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-            nn.Conv2d(192, 384, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(384, 256, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.Conv2d(256, 256, kernel_size=3, padding=1),
-            nn.ReLU(inplace=True),
-            nn.MaxPool2d(kernel_size=3, stride=2),
-        )
-        self.classifier = nn.Sequential(
-            nn.Dropout(),
-            nn.Linear(256 * 6 * 6, 4096),
-            nn.ReLU(inplace=True),
-            nn.Dropout(),
-            nn.Linear(4096, 4096),
-            nn.ReLU(inplace=True),
-        )
-        self.fc = nn.Linear(4096, num_classes)
 
-    def forward(self, x):
-        x = self.features(x)
-        x = x.view(x.size(0), 256 * 6 * 6)
-        x = self.classifier(x)
-        x = self.fc(x)
-        return x
-
-
+# 把 tensor 变成 Variable
 def to_var(x):
     x = Variable(x)
     if torch.cuda.is_available():
         x = x.cuda()
     return x
 
-
+# 是否下载
 DOWNLOAD = True
+
+# 需要分类的类别
+CLASS_NUM = 10
+
 # 下载预训练好的AlexNet模型
-pre_alexnet = getAlexNet(DOWNLOAD)
-pretrain_dict = pre_alexnet.state_dict()
+alexnet = getAlexNet(DOWNLOAD)
 
-# 因为 CIFAR10 只有10个种类，我们设置 num_classes=10
-alexnet = AlexNet(10)
-alexnet_dict = alexnet.state_dict()
-pretrained_dict = {k: v for k, v in pretrain_dict.items() if k in alexnet_dict}
 
-# 更新我们自己设置的Alexnet网络的权重
-alexnet_dict.update(pretrained_dict)
-# 将这些权重加载到模型中。
-alexnet.load_state_dict(alexnet_dict)
+
+# -----------------修改预训练好的 Alexnet 模型中的分类层-------------------------
+alexnet.classifier = nn.Sequential(
+    nn.Dropout(p=0.5),
+    nn.Linear(in_features=9216, out_features=4096, bias=True),
+    nn.ReLU(inplace=True),
+    nn.Dropout(p=0.5),
+    nn.Linear(in_features=4096, out_features=4096, bias=True),
+    nn.ReLU(inplace=True),
+    nn.Linear(in_features=4096, out_features=CLASS_NUM, bias=True)
+)
+
 
 # 使用GPU
 if torch.cuda.is_available():
     alexnet = alexnet.cuda()
 
-# get Dataset
+# 数据预处理
 transform = transforms.Compose([
-    transforms.Scale(224),
+    transforms.Resize(224),
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                            std=[0.229, 0.224, 0.225])
+                         std=[0.229, 0.224, 0.225])
 ])
 
+# 加载数据
 train_data = datasets.CIFAR10('./data', train=True, transform=transform, download=True)
 test_data = datasets.CIFAR10('./data', train=False, transform=transform, download=False)
 
@@ -144,8 +116,9 @@ test_data_loader = DataLoader(test_data, batch_size=256, shuffle=True)
 learning_rate = 0.0001
 num_epoches = 5
 criterion = nn.CrossEntropyLoss()
-# 训练的时候，我们只更新 fc 层的参数
-optimizer = optim.Adam(alexnet.fc.parameters(), lr=learning_rate)
+
+# 训练的时候，我们只更新 classifier 层的参数
+optimizer = optim.Adam(alexnet.classifier.parameters(), lr=learning_rate)
 
 # training
 alexnet.train()
