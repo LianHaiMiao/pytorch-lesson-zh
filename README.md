@@ -26,7 +26,7 @@ windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/
 | 6.CNN和MNIST | [CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb) | [CNN和MNIST.py](./basis/py/simplecnn.py) |
 | 7.参数初始化和使用预训练模型 | [参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb) | [参数初始化和使用预训练模型.py](./basis/py/pretrain.py) |
 | 8.模型保存和加载 | [模型保存和加载.ipynb](./basis/模型保存和加载.ipynb) | [模型保存和加载.py](./basis/py/save_load.py) |
-| 8.循环神经网络（RNN） | [循环神经网络（RNN）.ipynb](./basis/rnn.ipynb) | [循环神经网络（RNN）.py](./basis/py/rnn.py) |
+| 9.循环神经网络（RNN） | [循环神经网络（RNN）.ipynb](./basis/rnn.ipynb) | [循环神经网络（RNN）.py](./basis/py/rnn.py) |
 
 
 ## 二、小试牛刀

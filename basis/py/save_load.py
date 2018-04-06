@@ -53,7 +53,7 @@ torch.save(lenet, PATH)
 model = torch.load(PATH)
 
 
-# 第二种：仅保存模型的参数
+# 第二种：仅保存模型的参数(强烈推荐使用这种方式)
 
 torch.save(lenet.state_dict(), PATH)
 
