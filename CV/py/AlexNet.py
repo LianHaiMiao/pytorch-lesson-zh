@@ -57,7 +57,7 @@ print(alex)
 # 图像预处理，因为Alex 是使用 227 * 227 大小的图片，但是 CIFAR10 只有 32 * 32 ,经过测试， 227 * 227 的效果不好。
 # 所以这里， 我们将图像放大到 96*96
 transform = transforms.Compose([
-    transforms.Scale(96),
+    transforms.Resize(96),
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])

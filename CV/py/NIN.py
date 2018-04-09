@@ -55,9 +55,9 @@ class NIN(nn.Module):
         return out
 
 
-# 图像预处理，因为NIN是使用224 * 224大小的图片，但是MNIST只有32 * 32
+# 图像预处理，因为NIN是使用224 * 224大小的图片，但是 CIFAR10 只有32 * 32
 transform = transforms.Compose([
-    transforms.Scale(224), # 缩放到 224 * 224 大小
+    transforms.Resize(224), # 缩放到 224 * 224 大小
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # 归一化
 ])

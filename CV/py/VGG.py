@@ -6,10 +6,10 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
 
-# 图像预处理，因为VGG是使用224 * 224大小的图片，但是MNIST只有32 * 32, 为了能快点跑出结果，
+# 图像预处理，因为VGG是使用224 * 224大小的图片，但是 CIFAR10 只有32 * 32, 为了能快点跑出结果，
 # 我们将它们放大到96*96，而不是原始论文的224 * 224
 transform = transforms.Compose([
-    transforms.Scale(96), # 缩放到 96 * 96 大小
+    transforms.Resize(96), # 缩放到 96 * 96 大小
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # 归一化
 ])
