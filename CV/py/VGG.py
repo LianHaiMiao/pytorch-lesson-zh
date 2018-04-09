@@ -17,7 +17,7 @@ transform = transforms.Compose([
 # 超参数
 DOWNLOAD = True
 BATCH_SIZE = 256
-EPOCH = 2
+EPOCH = 5
 learning_rate = 0.001
 
 # 是否使用GPU
@@ -150,8 +150,7 @@ for images, labels in test_loader:
     temp = (predicted == labels.data).sum()
     correct += temp
 
-
-    print('Accuracy of the model on the test images: %d %%' % (100 * correct / total))
+print('Accuracy of the model on the test images: %d %%' % (100 * correct / total))
 
 
 

@@ -9,11 +9,11 @@ from torch.utils.data import DataLoader
 # 超参数类，用于控制各种超参数
 class Config(object):
     def __init__(self):
-        self.lr = 0.001
+        self.lr = 0.005
         self.batch_size = 256
         self.use_gpu = torch.cuda.is_available()
         self.DOWNLOAD = True
-        self.epoch_num = 2 # 因为只是demo，就跑了2个epoch，可以自己多加几次试试结果
+        self.epoch_num = 5 # 因为只是demo，就跑了2个epoch，可以自己多加几次试试结果
         self.class_num = 10 # CIFAR10 共有10类
 config = Config()
 

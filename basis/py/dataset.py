@@ -173,7 +173,7 @@ from torch.utils.data import DataLoader
 
 # 图像预处理步骤
 transform = transforms.Compose([
-    transforms.Scale(96), # 缩放到 96 * 96 大小
+    transforms.Resize(96), # 缩放到 96 * 96 大小
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)) # 归一化
 ])
