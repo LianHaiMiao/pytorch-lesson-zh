@@ -25,8 +25,9 @@ windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/
 | 5.Dataset和DataLoader | [Dataset和DataLoader.ipynb](./basis/5、Dataset和DataLoader.ipynb) | [Dataset和DataLoader.py](./basis/py/dataset.py) |
 | 6.CNN和MNIST | [CNN和MNIST.ipynb](./basis/CNN和MNIST.ipynb) | [CNN和MNIST.py](./basis/py/simplecnn.py) |
 | 7.参数初始化和使用预训练模型 | [参数初始化和使用预训练模型.ipynb](./basis/参数初始化和使用预训练模型.ipynb) | [参数初始化和使用预训练模型.py](./basis/py/pretrain.py) |
-| 8.模型保存和加载 | [模型保存和加载.ipynb](./basis/模型保存和加载.ipynb) | [模型保存和加载.py](./basis/py/save_load.py) |
-| 9.循环神经网络（RNN） | [循环神经网络（RNN）.ipynb](./basis/rnn.ipynb) | [循环神经网络（RNN）.py](./basis/py/rnn.py) |
+| 8.模型微调的各种trick | [模型微调的各种trick.ipynb](./basis/模型微调的各种trick.ipynb) | [模型微调的各种trick.py](./basis/py/fine_tune.py) |
+| 9.模型保存和加载 | [模型保存和加载.ipynb](./basis/模型保存和加载.ipynb) | [模型保存和加载.py](./basis/py/save_load.py) |
+| 10.循环神经网络（RNN） | [循环神经网络（RNN）.ipynb](./basis/rnn.ipynb) | [循环神经网络（RNN）.py](./basis/py/rnn.py) |
 
 
 ## 二、小试牛刀
@@ -88,7 +89,7 @@ windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Capsule |  [Capsule.ipynb]() | [Capsule.py]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
+| Capsule |  [Capsule.ipynb](./Others/Capsule.ipynb) | [Capsule.py]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
 
 
 
