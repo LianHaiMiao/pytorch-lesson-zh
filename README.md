@@ -10,9 +10,7 @@ pytorch-tutorial-zh
 
 ## 如何安装Pytorch?
 
-linux可以通过这个 [Pytorch官网](http://pytorch.org/)
-windows可以通过这个 [windows 下安装Pytorch](https://zhuanlan.zhihu.com/p/26871672)
-
+安装 Pytorch 0.4.0版本，linux、windows 下可以通过这个 [Pytorch官网](http://pytorch.org/)
 
 ## 一、雏鹰起飞
 
