@@ -45,6 +45,11 @@ pytorch-tutorial-zh
 
 ### 2、计算机视觉——应用领域
 
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+| 语义分割(FCN) |  [FCN.ipynb](./CV/FCN.ipynb) | [FCN.py](./CV/py/FCN.py) |  [FCN paper](https://arxiv.org/abs/1411.4038) |
+
+
 [YOLO.ipynb]
 
 [Image2Language.ipynb]
