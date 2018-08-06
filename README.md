@@ -89,6 +89,11 @@ pytorch-tutorial-zh
 
 
 ### 6、强化学习
+| Content    | .ipynb 文件  |  .py 文件 |  paper  |
+| ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
+||  []( | [Nueral Style.py]
+
+| Policy Gradients  |  [基于 policy gradients 来玩 atari](./DRL/policy_gradients.ipynb) | [基于 policy gradients 来玩 atari.py](./DRL/py/policy_gradients.py) | [任务说明](https://docs.google.com/presentation/d/1bsXDirSx0hS0fJJQU2p1SeTG9ayMN_s_JBP2B8XQoMk/edit#slide=id.g2910edee95_0_0) |
 
 
 ### 7、其它
