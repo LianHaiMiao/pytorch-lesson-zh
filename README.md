@@ -91,7 +91,7 @@ pytorch-tutorial-zh
 ### 6、强化学习
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Policy Gradients  |  [基于 policy gradients 来玩 CartPole-v0](./DRL/policy_gradients.ipynb) | [基于 policy gradients 来玩 atari.py](./DRL/py/policy_gradients.py) | [任务介绍](https://gym.openai.com/envs/CartPole-v0/) |
+| Policy Gradients  |  [基于 policy gradients 来玩 CartPole-v0](./DRL/policy_gradients.ipynb) | [基于 policy gradients 来玩 CartPole-v0](./DRL/py/policy_gradients.py) | [任务介绍](https://gym.openai.com/envs/CartPole-v0/) |
 
 
 ### 7、其它
