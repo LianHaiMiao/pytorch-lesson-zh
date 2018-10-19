@@ -3,3 +3,5 @@
 .ipynb_checkpoints
 data/
 .idea/
+samples/
+celebA/

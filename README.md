@@ -49,7 +49,6 @@ pytorch-tutorial-zh
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
 | 语义分割(FCN) |  [FCN.ipynb](./CV/FCN.ipynb) | [FCN.py](./CV/py/FCN.py) |  [FCN paper](https://arxiv.org/abs/1411.4038) |
 
-
 [YOLO.ipynb]
 
 [Image2Language.ipynb]
@@ -75,8 +74,7 @@ pytorch-tutorial-zh
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
 | GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN.py](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
 | DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN.py](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
-
-[Variational Auto-Encoder.ipynb]
+| Variational Auto-Encoder |  [VAE.ipynb]() | [VAE.py](./GAN/py/VAE.py) |  [VAE paper](https://arxiv.org/abs/1312.6114) |
 
 [WGAN.ipynb]
 
