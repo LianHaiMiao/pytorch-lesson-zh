@@ -49,10 +49,6 @@ pytorch-tutorial-zh
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
 | 语义分割(FCN) |  [FCN.ipynb](./CV/FCN.ipynb) | [FCN.py](./CV/py/FCN.py) |  [FCN paper](https://arxiv.org/abs/1411.4038) |
 
-[YOLO.ipynb]
-
-[Image2Language.ipynb]
-
 
 ### 3、自然语言处理
 
@@ -63,10 +59,6 @@ pytorch-tutorial-zh
 | Encoder-Decoder |  [使用Encoder-Decoder来完成机器翻译.ipynb](./NLP/encode_decoder.ipynb) | [Encoder-Decoder.py](./NLP/py/encoder_decoder.py) |  [paper] |
 | 注意力机制 |  [使用Encoder-Decoder + Attention 机制来完成机器翻译.ipynb](./NLP/attention.ipynb) | [Attention.py](./NLP/py/attention.py) |  [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) |
 
-[情感分类.ipynb]
-
-[聊天机器人.ipynb]
-
 
 ### 4、生成模型
 
@@ -75,8 +67,6 @@ pytorch-tutorial-zh
 | GAN |  [GAN.ipynb](./GAN/GAN.ipynb) | [GAN.py](./GAN/py/GAN.py) |  [GAN paper](https://arxiv.org/abs/1406.2661) |
 | DCGAN |  [DCGAN.ipynb](./GAN/DCGAN.ipynb) | [DCGAN.py](./GAN/py/DCGAN.py) |  [DCGAN paper](https://arxiv.org/abs/1511.06434) |
 | Variational Auto-Encoder |  [VAE.ipynb]() | [VAE.py](./GAN/py/VAE.py) |  [VAE paper](https://arxiv.org/abs/1312.6114) |
-
-[WGAN.ipynb]
 
 
 ### 5、样式迁移
@@ -96,9 +86,9 @@ pytorch-tutorial-zh
 
 | Content    | .ipynb 文件  |  .py 文件 |  paper  |
 | ------------------ | :---------------------: | :--------------------------: |:--------------------------: |
-| Capsule |  [Capsule.ipynb](./Others/Capsule.ipynb) | [Capsule.py]() | [Capsule paper](https://arxiv.org/abs/1710.09829) |
+| Capsule |  [Capsule.ipynb](./Others/Capsule.ipynb) | Capsule.py | [Capsule paper](https://arxiv.org/abs/1710.09829) |
 | Attention is all you need |  [attention_all.ipynb](./Others/attention_all.ipynb) | [attention_all.py](./Others/py/attention_all.py) | [Attention is all you need](https://arxiv.org/abs/1706.03762) |
-
+| Graph Convolution Network |  GCN.ipynb | [GCN.py](./Others/py/GCN.py) | [GCN paper](https://arxiv.org/abs/1609.02907) |
 
 
 ## Dependencies
@@ -109,10 +99,7 @@ PyTorch 0.3.0
 
 最好有 GPU
 
-
-
-
-
+关于 1.0 版本的更新... 我只能尽量抽空来弄了，各位读者大大还请见谅。
 
 
 ## Reference
