@@ -69,7 +69,7 @@ class GCN(nn.Module):
 
 if __name__ == '__main__':
     # 构造图结构
-    graph_path = "./data/karate.txt"
+    graph_path = "../data/karate.txt"
     node_num = 34
     input_dim = node_num
     output_class = 2
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     A = torch.tensor(A_tilde, dtype=torch.float32)
     D = torch.tensor(D_tilde, dtype=torch.float32)
     # 我们将 label.txt 数据处理一下，得到数据和标签。
-    label_path = "./data/label.txt"
+    label_path = "../data/label.txt"
     all_data, all_label = get_train_test(label_path, train_num=24)
     # 简单点，直接使用 one-hot encoding 来表示特征
     X_features = torch.eye(node_num, node_num)  # N*N
